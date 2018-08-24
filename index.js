@@ -14,7 +14,7 @@ easybtn.addEventListener("click",function(){
    hardbtn.classList.remove("selected");
    totalnum=3;
    colors=generate(totalnum);
-  h1.style.backgroundColor="steelblue";
+   h1.style.backgroundColor = "steelblue";
    pickedColor=pickColor();
    colorDisplay.textContent=pickedColor;
    for( let i=0;i< squares.length;i++)
@@ -31,7 +31,7 @@ hardbtn.addEventListener("click",function(){
 
     totalnum=6;
     colors=generate(totalnum);
-    h1.style.backgroundColor="steelblue";
+    h1.style.backgroundColor = "steelblue";
     pickedColor=pickColor();
     colorDisplay.textContent=pickedColor;
     for( let i=0;i< squares.length;i++)
@@ -46,7 +46,7 @@ hardbtn.addEventListener("click",function(){
 
 reset.addEventListener("click",function(){
      colors=generate(totalnum);
-     h1.style.backgroundColor = "steelblue"
+     h1.style.backgroundColor = "steelblue";
      pickedColor=pickColor();
      colorDisplay.textContent=pickedColor;
      reset.textContent="New Colors"
